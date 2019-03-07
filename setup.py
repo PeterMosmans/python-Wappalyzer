@@ -18,13 +18,7 @@ setup(
     packages=find_packages(),
     package_data={'Wappalyzer': ['data/apps.json']},
     install_requires=[
-        'BeautifulSoup==3.2.1',
+        'BeautifulSoup4',
         'requests',
-    ],
-    test_suite='nose.collector',
-    tests_require=[
-        'httpretty>=0.6.0',
-        'nose>=1.3.0',
-        'requests'
     ]
 )
